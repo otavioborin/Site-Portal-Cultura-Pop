@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | Cultura Pop</title>
+  <meta name="description" content="Entre em contato com o portal Cultura Pop para feedbacks e sugestões.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo Cultura Pop" class="logo-img">
+      </div>
+     <button class="menu-toggle" aria-label="Abrir menu">
+      ☰
+    </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="filmes.html">Filmes</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Entre em Contato</h1>
+    <div id="mensagem-status"></div>
+    <form id="form-contato">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
